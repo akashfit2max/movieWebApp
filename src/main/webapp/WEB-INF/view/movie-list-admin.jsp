@@ -16,6 +16,12 @@
 		<nav>
 			<a class="nav-link" href="./show-movie-list-admin">Movies</a> <a
 				class="nav-link" href="./add-movie-list-db">Add Movie</a>
+			<div class="dropdown nav-link" style="float: right;">
+				<button class="dropbtn">Select Portal</button>
+				<div class="dropdown-content">
+					<a href="./show-movie-list-customer">Customer Portal</a> <a href="./show-movie-list-admin">Admin Portal</a>
+				</div>
+			</div>
 		</nav>
 	</header>
 	<article>
